@@ -30,7 +30,7 @@ public class Solution {
                 case "C" -> digits.add(100);
                 case "D" -> digits.add(500);
                 case "M" -> digits.add(1000);
-                default -> throw new IllegalArgumentException("unexpected argument " + symbol);
+                default -> throw new IllegalArgumentException("unsupported argument " + symbol);
             }
         }
 
